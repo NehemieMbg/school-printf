@@ -12,6 +12,20 @@ int print_char(va_list lst);
 int print_string(va_list lst);
 
 /**
+* print_num
+*/
+
+int print_int(va_list l);
+void print_number(int n);
+int count_digit(int i);
+
+/**
+* putchar an puts function
+*/
+int _putchar(char c);
+int _puts(char *str);
+
+/**
  * @brief 
  * 
  */
