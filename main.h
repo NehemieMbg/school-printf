@@ -10,9 +10,15 @@ int print_check(const char * const format, ...);
 
 int print_char(va_list lst);
 int print_string(va_list lst);
+
+/**
+* print_num
+*/
+
 int print_int(va_list l);
-
-
+void print_number(int n);
+int count_digit(int i);
+  
 /**
  * @brief 
  * 
