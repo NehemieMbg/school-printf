@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * _printf - Prints 
- * 
+ * _printf - Produces output arccording to a format
+ * @format: is the pointer that point to the first character of a string
+ *
+ * Return: the number of character printed
  */
 
 int _printf(const char *format, ...)
@@ -35,7 +37,8 @@ int _printf(const char *format, ...)
 			}
 			i++;
 		}
-		else{
+		else
+		{
 			write(STDOUT_FILENO, &format[i], 1);
 			count += 1;
 		}

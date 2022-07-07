@@ -20,6 +20,10 @@ int _strlen(char *s) {
 int print_string(va_list lst)
 {
 	char *s = va_arg(lst, char*);
+
+	if(!s)
+		s = "(null)";
+
 	int len = _strlen(s);
 
 	write(1, s, len);

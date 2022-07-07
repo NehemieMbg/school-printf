@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * @brief 
- * 
+ * print_check - is a clone of _printf
+* @format: is the pointer that point to the first character of a string
+*
+*Return: the number of character printed
  */
 
 int print_check(const char * const format, ...)
