@@ -11,11 +11,6 @@ int print_check(const char * const format, ...);
 int print_char(va_list lst);
 int print_string(va_list lst);
 
-/**
- * @brief 
- * 
- */
-
 typedef struct print_function
 {
 	char c;
