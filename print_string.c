@@ -1,6 +1,15 @@
 #include "main.h"
 
-int _strlen(char *s) {
+/**
+ * _strlen - Function that calculated the length of a string
+ *
+ * @s: is the pointer that point to the first char of a string
+ *
+ * Return: the lenght of a string
+ */
+
+int _strlen(char *s)
+{
 	int i = -1;
 
 	if (s)
@@ -13,8 +22,10 @@ int _strlen(char *s) {
 }
 
 /**
- * _print_c - Prints characters
+ * print_string - Function that prints a string
  * @lst: is the list
+ *
+ * Return: return len
  */
 
 int print_string(va_list lst)
