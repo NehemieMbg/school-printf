@@ -45,7 +45,17 @@ void print_number(int n)
  */
 int count_digit(int i)
 {
-  /**
-   * implant it later
-   */
+  unsigned int d = 0;
+  unsigned int u;
+
+  if (i < 0)
+    u = i * -1;
+  else
+    u = i;
+  while (u != 0)
+    {
+      u /= 10;
+      d++;
+    }
+  return (d);
 }
