@@ -10,6 +10,8 @@ int print_check(const char * const format, ...);
 
 int print_char(va_list lst);
 int print_string(va_list lst);
+int print_int(va_list l);
+
 
 /**
  * @brief 
